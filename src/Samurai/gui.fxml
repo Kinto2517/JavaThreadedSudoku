@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Samurai.ControlThemAll">
+   <center>
+      <Pane prefHeight="1100.0" prefWidth="1400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="359.0" layoutY="320.0" prefHeight="99.0" prefWidth="106.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="250.0" layoutY="617.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="31.0" layoutY="617.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="142.0" layoutY="519.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="251.0" layoutY="420.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="33.0" layoutY="420.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="683.0" layoutY="222.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="464.0" layoutY="222.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="575.0" layoutY="124.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="684.0" layoutY="25.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="466.0" layoutY="25.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="251.0" layoutY="222.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="32.0" layoutY="222.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="143.0" layoutY="124.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="252.0" layoutY="25.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="34.0" layoutY="25.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="684.0" layoutY="615.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="465.0" layoutY="615.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="576.0" layoutY="517.0" prefHeight="101.0" prefWidth="112.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="685.0" layoutY="418.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <Pane layoutX="467.0" layoutY="418.0" prefHeight="101.0" prefWidth="108.0" style="-fx-background-color: #8c8c8c;" />
+            <TextField fx:id="i00" layoutX="41.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i01" layoutX="76.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i02" layoutX="113.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i03" layoutX="149.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i04" layoutX="184.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i05" layoutX="221.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i06" layoutX="258.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i07" layoutX="293.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i08" layoutX="330.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i10" layoutX="41.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i11" layoutX="76.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i12" layoutX="113.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i13" layoutX="149.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i14" layoutX="184.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i15" layoutX="221.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i16" layoutX="258.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i17" layoutX="293.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i18" layoutX="330.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i20" layoutX="41.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i21" layoutX="76.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i22" layoutX="113.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i23" layoutX="149.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i24" layoutX="184.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i25" layoutX="221.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i26" layoutX="258.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i27" layoutX="293.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i28" layoutX="330.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i30" layoutX="41.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i31" layoutX="76.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i32" layoutX="113.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i33" layoutX="149.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i34" layoutX="184.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i35" layoutX="221.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i36" layoutX="258.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i37" layoutX="293.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i38" layoutX="330.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i40" layoutX="41.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i41" layoutX="76.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i42" layoutX="113.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i43" layoutX="149.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i44" layoutX="184.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i45" layoutX="221.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i46" layoutX="258.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i47" layoutX="293.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i48" layoutX="330.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i50" layoutX="41.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i51" layoutX="76.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i52" layoutX="113.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i53" layoutX="149.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i54" layoutX="184.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i55" layoutX="221.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i56" layoutX="258.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i57" layoutX="293.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i58" layoutX="330.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i60" layoutX="41.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i61" layoutX="76.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i62" layoutX="113.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i63" layoutX="149.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i64" layoutX="184.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i65" layoutX="221.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i66" layoutX="258.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i67" layoutX="293.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i68" layoutX="330.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i70" layoutX="41.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i71" layoutX="76.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i72" layoutX="113.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i73" layoutX="149.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i74" layoutX="184.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i75" layoutX="221.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i76" layoutX="258.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i77" layoutX="293.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i78" layoutX="330.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i80" layoutX="41.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i81" layoutX="76.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i82" layoutX="113.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i83" layoutX="149.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i84" layoutX="184.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i85" layoutX="221.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i86" layoutX="258.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i87" layoutX="293.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i88" layoutX="330.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i09" layoutX="474.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i010" layoutX="509.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i011" layoutX="546.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i012" layoutX="583.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i013" layoutX="618.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i014" layoutX="655.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i19" layoutX="474.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i110" layoutX="509.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i111" layoutX="546.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i112" layoutX="583.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i113" layoutX="618.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i114" layoutX="655.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i29" layoutX="474.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i210" layoutX="509.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i211" layoutX="546.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i212" layoutX="583.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i213" layoutX="618.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i214" layoutX="655.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i39" layoutX="474.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i310" layoutX="509.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i311" layoutX="546.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i312" layoutX="583.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i313" layoutX="618.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i314" layoutX="655.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i49" layoutX="474.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i410" layoutX="509.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i411" layoutX="546.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i412" layoutX="583.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i413" layoutX="618.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i414" layoutX="655.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i59" layoutX="474.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i510" layoutX="509.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i511" layoutX="546.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i512" layoutX="583.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i513" layoutX="618.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i514" layoutX="655.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i69" layoutX="366.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i610" layoutX="401.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i611" layoutX="438.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i612" layoutX="474.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i613" layoutX="509.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i614" layoutX="546.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i615" layoutX="583.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i616" layoutX="618.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i617" layoutX="655.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i79" layoutX="366.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i710" layoutX="401.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i711" layoutX="438.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i712" layoutX="474.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i713" layoutX="509.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i714" layoutX="546.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i715" layoutX="583.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i716" layoutX="618.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i717" layoutX="655.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i89" layoutX="366.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i810" layoutX="401.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i811" layoutX="438.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i812" layoutX="474.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i813" layoutX="509.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i814" layoutX="546.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i815" layoutX="583.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i816" layoutX="618.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i817" layoutX="655.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i015" layoutX="689.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i016" layoutX="724.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i017" layoutX="761.0" layoutY="31.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i115" layoutX="689.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i116" layoutX="724.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i117" layoutX="761.0" layoutY="64.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i215" layoutX="689.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i216" layoutX="724.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i217" layoutX="761.0" layoutY="96.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i315" layoutX="689.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i316" layoutX="724.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i317" layoutX="761.0" layoutY="128.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i415" layoutX="689.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i416" layoutX="724.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i417" layoutX="761.0" layoutY="161.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i515" layoutX="690.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i516" layoutX="724.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i517" layoutX="761.0" layoutY="193.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i618" layoutX="689.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i619" layoutX="724.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i620" layoutX="761.0" layoutY="227.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i718" layoutX="689.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i719" layoutX="724.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i720" layoutX="761.0" layoutY="260.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i818" layoutX="689.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i819" layoutX="724.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i820" layoutX="761.0" layoutY="292.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i90" layoutX="258.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i91" layoutX="293.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i92" layoutX="330.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i100" layoutX="258.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i101" layoutX="293.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i102" layoutX="330.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1100" layoutX="258.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1101" layoutX="293.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1102" layoutX="330.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1200" layoutX="41.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1201" layoutX="76.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1202" layoutX="113.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1203" layoutX="149.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1204" layoutX="184.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1205" layoutX="221.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1206" layoutX="258.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1207" layoutX="293.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1208" layoutX="330.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1300" layoutX="41.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1301" layoutX="76.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1302" layoutX="113.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1303" layoutX="149.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1304" layoutX="184.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1305" layoutX="221.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1306" layoutX="258.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1307" layoutX="293.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1308" layoutX="330.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1400" layoutX="41.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1401" layoutX="76.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1402" layoutX="113.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1403" layoutX="149.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1404" layoutX="184.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1405" layoutX="221.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1406" layoutX="258.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1407" layoutX="293.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1408" layoutX="330.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1500" layoutX="40.0" layoutY="523.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1501" layoutX="75.0" layoutY="523.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1502" layoutX="113.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1503" layoutX="147.0" layoutY="523.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1504" layoutX="184.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1505" layoutX="221.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1506" layoutX="258.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1507" layoutX="293.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1508" layoutX="330.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1600" layoutX="40.0" layoutY="556.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1601" layoutX="75.0" layoutY="556.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1602" layoutX="113.0" layoutY="556.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1603" layoutX="147.0" layoutY="556.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1604" layoutX="184.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1605" layoutX="221.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1606" layoutX="258.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1607" layoutX="293.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1608" layoutX="330.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1700" layoutX="40.0" layoutY="588.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1701" layoutX="75.0" layoutY="588.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1702" layoutX="112.0" layoutY="588.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1703" layoutX="147.0" layoutY="588.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1704" layoutX="184.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1705" layoutX="221.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1706" layoutX="258.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1707" layoutX="293.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1708" layoutX="330.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i93" layoutX="366.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i94" layoutX="401.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i95" layoutX="438.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i96" layoutX="474.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i97" layoutX="509.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i98" layoutX="546.0" layoutY="326.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i103" layoutX="366.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i104" layoutX="401.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i105" layoutX="438.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i106" layoutX="474.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i107" layoutX="509.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i108" layoutX="546.0" layoutY="359.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1103" layoutX="366.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1104" layoutX="401.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1105" layoutX="438.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1106" layoutX="474.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1107" layoutX="509.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1108" layoutX="546.0" layoutY="391.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1209" layoutX="366.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1210" layoutX="401.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1211" layoutX="438.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1212" layoutX="474.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1213" layoutX="509.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1214" layoutX="546.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1215" layoutX="583.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1216" layoutX="618.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1217" layoutX="655.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1309" layoutX="366.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1310" layoutX="401.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1311" layoutX="438.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1312" layoutX="474.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1313" layoutX="509.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1314" layoutX="546.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1315" layoutX="583.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1316" layoutX="618.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1317" layoutX="655.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1409" layoutX="366.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1410" layoutX="401.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1411" layoutX="438.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1412" layoutX="474.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1413" layoutX="509.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1414" layoutX="546.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1415" layoutX="583.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1416" layoutX="618.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1417" layoutX="655.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1509" layoutX="474.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1510" layoutX="509.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1511" layoutX="546.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1512" layoutX="583.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1513" layoutX="618.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1514" layoutX="655.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1609" layoutX="474.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1610" layoutX="509.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1611" layoutX="546.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1612" layoutX="583.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1613" layoutX="618.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1614" layoutX="655.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1709" layoutX="474.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1710" layoutX="509.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1711" layoutX="546.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1712" layoutX="583.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1713" layoutX="618.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1714" layoutX="655.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1218" layoutX="689.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1219" layoutX="724.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1220" layoutX="761.0" layoutY="423.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1318" layoutX="689.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1319" layoutX="724.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1320" layoutX="761.0" layoutY="456.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1418" layoutX="689.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1419" layoutX="724.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1420" layoutX="761.0" layoutY="488.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1515" layoutX="689.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1516" layoutX="724.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1517" layoutX="761.0" layoutY="522.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1615" layoutX="689.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1616" layoutX="724.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1617" layoutX="761.0" layoutY="555.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1715" layoutX="689.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1716" layoutX="724.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1717" layoutX="761.0" layoutY="587.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1800" layoutX="40.0" layoutY="620.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1801" layoutX="73.0" layoutY="620.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1802" layoutX="112.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1803" layoutX="146.0" layoutY="620.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1804" layoutX="185.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1805" layoutX="223.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1806" layoutX="259.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1807" layoutX="293.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1808" layoutX="330.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1900" layoutX="40.0" layoutY="653.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1901" layoutX="73.0" layoutY="653.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1902" layoutX="111.0" layoutY="653.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1903" layoutX="146.0" layoutY="653.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1904" layoutX="185.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1905" layoutX="223.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1906" layoutX="259.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1907" layoutX="292.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1908" layoutX="329.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2000" layoutX="40.0" layoutY="685.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2001" layoutX="73.0" layoutY="685.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2002" layoutX="110.0" layoutY="685.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2003" layoutX="146.0" layoutY="685.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2004" layoutX="185.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2005" layoutX="223.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2006" layoutX="259.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2007" layoutX="293.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2008" layoutX="329.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1809" layoutX="475.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1810" layoutX="513.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1811" layoutX="550.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1812" layoutX="587.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1813" layoutX="622.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1814" layoutX="659.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1909" layoutX="475.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1910" layoutX="513.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1911" layoutX="550.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1912" layoutX="587.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1913" layoutX="622.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1914" layoutX="659.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2009" layoutX="475.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2010" layoutX="513.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2011" layoutX="550.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2012" layoutX="587.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2013" layoutX="622.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2014" layoutX="659.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1815" layoutX="693.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1816" layoutX="728.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1817" layoutX="762.0" layoutY="619.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1915" layoutX="693.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1916" layoutX="728.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i1917" layoutX="761.0" layoutY="652.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2015" layoutX="693.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2016" layoutX="728.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <TextField fx:id="i2017" layoutX="762.0" layoutY="684.0" prefHeight="18.0" prefWidth="24.0" />
+            <Line endX="329.0" endY="-4.0" layoutX="137.0" layoutY="325.0" startX="-104.0" startY="-6.0" />
+            <Line endX="213.5" endY="-4.5" layoutX="148.0" layoutY="28.0" startX="213.0" startY="390.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="147.0" layoutY="336.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="137.0" layoutY="30.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="136.0" layoutY="130.0" startX="-104.0" startY="-6.0" />
+            <Line endX="333.0" endY="-6.0" layoutX="135.0" layoutY="230.0" startX="-104.0" startY="-6.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="257.0" layoutY="336.0" startX="-114.5" startY="-16.5" />
+            <Line endX="-114.5" endY="-312.5" layoutX="367.0" layoutY="336.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="570.0" layoutY="328.0" startX="-104.0" startY="-6.0" />
+            <Line endX="213.5" endY="-4.5" layoutX="581.0" layoutY="30.0" startX="213.5" startY="292.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="580.0" layoutY="338.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="570.0" layoutY="32.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="569.0" layoutY="132.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="568.0" layoutY="230.0" startX="-104.0" startY="-6.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="690.0" layoutY="338.0" startX="-114.5" startY="-16.5" />
+            <Line endX="-114.5" endY="-312.5" layoutX="800.0" layoutY="338.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="570.0" layoutY="720.0" startX="-104.0" startY="-6.0" />
+            <Line endX="213.5" endY="-4.5" layoutX="581.0" layoutY="422.0" startX="213.5" startY="292.0" />
+            <Line endX="-114.0" endY="-408.0" layoutX="580.0" layoutY="730.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="570.0" layoutY="424.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="569.0" layoutY="524.0" startX="-209.5" startY="-5.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="568.0" layoutY="622.0" startX="-104.0" startY="-6.0" />
+            <Line endX="-114.5" endY="-417.0" layoutX="690.0" layoutY="730.0" startX="-114.5" startY="-16.5" />
+            <Line endX="-114.5" endY="-312.5" layoutX="800.0" layoutY="730.0" startX="-114.5" startY="-16.5" />
+            <Line endX="224.0" endY="-6.0" layoutX="136.0" layoutY="721.0" startX="-104.0" startY="-6.0" />
+            <Line endX="213.5" endY="-4.5" layoutX="147.0" layoutY="423.0" startX="213.5" startY="292.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="146.0" layoutY="731.0" startX="-114.5" startY="-16.5" />
+            <Line endX="329.5" endY="-6.5" layoutX="136.0" layoutY="425.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="135.0" layoutY="525.0" startX="-104.0" startY="-6.0" />
+            <Line endX="224.0" endY="-6.0" layoutX="134.0" layoutY="623.0" startX="-104.0" startY="-6.0" />
+            <Line endX="-114.5" endY="-312.5" layoutX="256.0" layoutY="731.0" startX="-114.5" startY="-16.5" />
+            <Line endX="-113.0" endY="-411.0" layoutX="365.0" layoutY="731.0" startX="-114.5" startY="-16.5" />
+            <Button fx:id="button" layoutX="841.0" layoutY="544.0" mnemonicParsing="false" onAction="#cozOnAction" text="5 Thread İle Sudokuyu Çöz" />
+            <Button fx:id="button1" layoutX="1018.0" layoutY="544.0" mnemonicParsing="false" onAction="#cozOnAction1" text="10 Thread İle Sudokuyu Çöz" />
+            <LineChart fx:id="lineC" alternativeColumnFillVisible="true" layoutX="811.0" layoutY="136.0" prefHeight="391.0" prefWidth="475.0" title="Kare/Zaman Grafiği">
+              <xAxis>
+                <CategoryAxis label="Gecen Sure" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis label="Bulunan Kare Sayısı" side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Button fx:id="sıfırla" layoutX="841.0" layoutY="588.0" mnemonicParsing="false" onAction="#btnSıfırlaOnAction" text="Sıfırla" textFill="#610606">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
