@@ -3,7 +3,7 @@
 Java Version of Samurai Sudoku Solver using Thread. 
 
 ## Description
-This project uses 5 or 10 Thread to solve Samurai Sudoku problem. It solves 4 corner first before it solves middle one. If solution is not exist it tries another solution for corner sudokus. After the solution it shows on the graph how much second it took.
+This project uses 5 or 10 Thread to solve Samurai Sudoku problem. It solves 4 corner first before it solves middle one. If solution is not exist it tries another solution for corner sudokus. After the solution it shows on the graph how much second it took. This project also avaiable in Python.
 
 ## Installation
 
@@ -14,7 +14,8 @@ Clone this github repo and open with your favourite IDE
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 ![image](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
- 
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## Visuals
 
